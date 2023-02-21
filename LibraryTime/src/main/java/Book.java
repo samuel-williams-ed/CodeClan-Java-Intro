@@ -8,10 +8,11 @@ public class Book {
         this.title= title;
         this.author = author;
         this.genre = genre;
-
     }
 
 //    methods
-
+    public String getGenre(){
+        return this.genre;
+    }
 
 }
